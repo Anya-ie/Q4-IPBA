@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f7f0; /* Light sage green background */
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to bottom, #c1d1b8, #a5b69f); /* Gradient background for header */
+            color: #333; /* Darker text color */
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle depth effect */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px; /* Adjusted header size */
+            margin-top: 30px; /* Add some space between header and content */
+            margin-bottom: 20px; /* Add some space below header */
+            position: relative;
+            animation: slideInDown 1s ease; /* Text animation */
+            color: #4a594f; /* Darker text color */
+            font-family: 'Didot', serif; /* Change font-family to Didot */
+        }
+        p {
+            text-align: justify; /* Justify text for better readability */
+            animation: fadeInUp 1s ease; /* Text animation */
+            line-height: 1.6; /* Improved line-height for better readability */
+            font-size: 16px; /* Adjusted font size for paragraphs */
+            font-family: 'Didot', serif; /* Change font-family to Didot */
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px; /* Add space above the image */
+        }
+        .image-container img {
+            width: 50%; /* Adjust image width */
+            border-radius: 8px; /* Add border-radius for rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle depth effect */
+            transition: transform 0.3s ease; /* Smooth transition for image scaling */
+        }
+        .image-container img:hover {
+            transform: scale(1.05); /* Scale image on hover for a slight zoom effect */
+        }
+
+        /* Animations */
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Solution</h1>
+    </header>
+    
+    <div class="container">
+        <p>
+            Our group proposed these following steps in order to further mitigate the effects of a typhoon. Taking these steps are necessary in the case of any future typhoons if we want to lessen the damages.
+        </p>
+        <p>
+           
+        </p>
+        <div class="image-container">
+            <img src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.15752-9/437375264_3731193137157065_3343674528206714165_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bEkdLslBgBgQ7kNvgGWKVdo&_nc_ht=scontent.fmnl9-1.fna&oh=03_Q7cD1QGDbnvL4Vgc_omMWDh74PpCDXKCEdPDjbkkXUS2hpGchg&oe=6658518E" alt="Image">
+        </div>
+    </div>
+
+</body>
+</html>
